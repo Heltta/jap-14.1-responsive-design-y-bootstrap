@@ -9,3 +9,18 @@ header nav a.navbar-brand {
 header nav ul li.nav-item .nav-link{
     text-transform: capitalize;
 }
+
+p {
+    display: inline-block;
+}
+
+#contenidoDeTexto {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 60vh;
+}
+
+#contenidoDeTexto  p {
+    width: 33%;
+}
