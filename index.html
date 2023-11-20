@@ -57,9 +57,10 @@
       </nav>
     </header>
     <main class="container-fluid">
+      <!-- Carousel con titular -->
       <section class="row">
         <div class="col">
-          <div class="row">Mi titular</div>
+          <div class="row"><h1>Mi titular</h1></div>
           <div class="row">
             <div
               id="carouselExampleInterval"
@@ -73,9 +74,7 @@
                 <div class="carousel-item" data-bs-interval="2000">
                   Suscipit quo fuga unde?
                 </div>
-                <div class="carousel-item">
-                  Consectetur adipisicing elit
-                </div>
+                <div class="carousel-item">Consectetur adipisicing elit</div>
               </div>
               <button
                 class="carousel-control-prev"
@@ -106,8 +105,19 @@
         </div>
       </section>
       <section class="row">
-        <div class="col"></div>
+        <!-- Sidebar de opciones -->
+        <div id="sidebarOpciones" class="col container-fluid">
+          <div class="nav-bar">
+            <ul class="navbar-nav" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Opcion 1</a></li>
+              <li><a class="dropdown-item" href="#">Opcion 2</a></li>
+              <li><a class="dropdown-item" href="#">Opcion 3</a></li>
+              <li><a class="dropdown-item" href="#">Opcion 4</a></li>
+            </ul>
+          </div>
+        </div>
         <div id="contenidoDeTexto" class="col-9">
+          <!-- Contenido principal en texto -->
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque
             deserunt vero adipisci vel odit mollitia ipsam blanditiis facere
