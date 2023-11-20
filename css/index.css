@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header nav a.navbar-brand {
+    text-transform: uppercase;
+}
+header nav ul li.nav-item .nav-link{
+    text-transform: capitalize;
+}
