@@ -40,6 +40,17 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Amet</a>
               </li>
+              <li class="nav-item d-lg-none">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                    <ul id="dropDownOpciones" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Opcion 1</a></li>
+                      <li><a class="dropdown-item" href="#">Opcion 2</a></li>
+                      <li><a class="dropdown-item" href="#">Opcion 3</a></li>
+                      <li><a class="dropdown-item" href="#">Opcion 4</a></li>
+                    </ul>
+              </li>
             </ul>
             <form class="d-flex">
               <input
@@ -106,9 +117,9 @@
       </section>
       <section class="row">
         <!-- Sidebar de opciones -->
-        <div id="sidebarOpciones" class="col container-fluid">
+        <div id="sidebarOpciones" class="col container-fluid d-none d-lg-block">
           <div class="nav-bar">
-            <ul class="navbar-nav" aria-labelledby="navbarDropdown">
+            <ul class="navbar-nav">
               <li><a class="dropdown-item" href="#">Opcion 1</a></li>
               <li><a class="dropdown-item" href="#">Opcion 2</a></li>
               <li><a class="dropdown-item" href="#">Opcion 3</a></li>
@@ -116,7 +127,7 @@
             </ul>
           </div>
         </div>
-        <div id="contenidoDeTexto" class="col-9">
+        <div id="contenidoDeTexto" class="col-lg-9">
           <!-- Contenido principal en texto -->
           <class class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
             <p class="col">
