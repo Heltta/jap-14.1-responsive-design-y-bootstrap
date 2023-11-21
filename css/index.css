@@ -25,7 +25,7 @@ p {
 }
 
 #contenidoDeTexto p {
-  width: 30%;
+  height: 12rem;
 }
 
 #sidebarOpciones .nav-bar ul.navbar-nav li a.dropdown-item {
